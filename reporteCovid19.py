@@ -18,7 +18,7 @@ nuevosRecuperados = ultimoReporte["Recovered"] -penUltimoReporte["Recovered"]
 
 
 
-print(f"""#ReporteCOVID19 dia {diaDeHoy} del mes:\n{nuevosRecuperados:,} recuperados
+print(f"""ReporteCOVID19 dia {diaDeHoy} del mes:\n{nuevosRecuperados:,} recuperados
 {nuevosCasos:,} nuevos casos
 {nuevosFallecidos:,} fallecidos
 
