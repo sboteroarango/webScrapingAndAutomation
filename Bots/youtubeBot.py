@@ -12,7 +12,7 @@ sleep(2)
 #Hundir el filtro de menos de 4 minutos
 driver.find_element_by_xpath("//yt-formatted-string[contains(text(), 'Filtros')]").click()
 driver.find_element_by_xpath('/html/body/ytd-app/div/ytd-page-manager/ytd-search/div[1]/ytd-two-column-search-results-renderer/div/ytd-section-list-renderer/div[1]/div[2]/ytd-search-sub-menu-renderer/div[1]/iron-collapse/div/ytd-search-filter-group-renderer[3]/ytd-search-filter-renderer[1]/a/div/yt-formatted-string').click()
-
+sleep(4)
 #Hundir el primer video que aparezca
 driver.find_element_by_xpath("/html/body/ytd-app/div/ytd-page-manager/ytd-search/div[1]/ytd-two-column-search-results-renderer/div/ytd-section-list-renderer/div[2]/ytd-item-section-renderer/div[3]/ytd-video-renderer[1]/div[1]/ytd-thumbnail/a/yt-img-shadow/img").click()
 sleep(3)
